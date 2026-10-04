@@ -18,6 +18,18 @@
   image: calculus-chronicles.webp
   tags: [Mathematics, History, Interactive]
 
+- title: Differential Equation Lab
+  status: Live
+  blurb: >-
+    Interactive slope fields and phase portraits for teaching differential equations: 
+    draggable initial points, Euler's method with step triangles, nullclines and 
+    isoclines, hidden equilibria to discover, and a classify-and-solve activity. 
+  link: https://liamyardley.github.io/Differential-Equations-Lab/
+  link_text: Open the site
+  code: https://github.com/liamyardley/Differential-Equations-Lab
+  image: social-preview.webp
+  tags: [Mathematics, Differential Equations, Interactive]
+
 - title: Socratic Assessor
   status: In development
   blurb: >-
