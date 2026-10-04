@@ -2,9 +2,7 @@
 
 The source of my personal site: **https://liamyardley.github.io/**
 
-It is built with Jekyll, which GitHub Pages runs automatically, so there is nothing to install.
-
-## Everyday changes (all on github.com, no software needed)
+## Everyday changes 
 
 | I want to... | Edit this |
 |---|---|
@@ -16,7 +14,6 @@ It is built with Jekyll, which GitHub Pages runs automatically, so there is noth
 | Add a picture | Upload it to `assets/img/` |
 | Change the colour theme | `_config.yml`, the `colour_theme` line: `pastel`, `mist`, `notebook` or `nebula` |
 
-To edit a file on github.com: open it, click the pencil icon, make the change, then click **Commit changes**. The site updates in a minute or two.
 
 ## How the projects fit in
 
