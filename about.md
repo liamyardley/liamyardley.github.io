@@ -5,7 +5,7 @@ eyebrow: About
 permalink: /about/
 ---
 
-I’m a mathematics teacher and curriculum leader. Over twelve years I’ve taught in international schools in the UK, Korea, Vietnam and Singapore, mostly the IB Diploma, and I’m an IB Assistant Examiner for Mathematics: Applications and Interpretation.
+I’m a mathematics teacher and curriculum leader with over a decades experience teaching in international schools in the UK, Korea, Vietnam and Singapore. I am an IB Diploma specialist, and I’m an IB Assistant Examiner..
 
 I lead my department’s use of AI in teaching, learning and assessment, and I build tools in-house: a question bank, and a Socratic assessor that uses a language model to probe how deeply students understand an idea.
 
