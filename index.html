@@ -1,0 +1,38 @@
+---
+layout: default
+title: Liam Yardley
+---
+<section class="hero">
+  <div class="wrap hero-in">
+    <p class="eyebrow">Mathematics · Data · AI</p>
+    <h1>Liam Yardley</h1>
+    <p class="hero-lede">I teach mathematics, and I build things that help students see how it works.</p>
+    <p class="hero-sub">I’m a mathematics teacher, curriculum leader and IB examiner, with twelve years in international schools across the UK, Korea, Vietnam and Singapore. I’m also completing a master’s in Data Science and AI at Harvard Extension School. This site collects my interactive tools, data science projects and writing on teaching, mathematics and AI.</p>
+    <p class="hero-actions"><a class="btn" href="#projects">See the projects</a><a class="btn ghost" href="{{ '/about/' | relative_url }}">More about me</a></p>
+  </div>
+</section>
+
+<section class="band" id="projects">
+  <div class="wrap">
+    <header class="sec-head"><p class="eyebrow">Projects</p><h2>Things I’ve built</h2></header>
+    <div class="cards">
+      {% for p in site.data.projects %}{% include project-card.html project=p %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band" id="writing">
+  <div class="wrap">
+    <header class="sec-head"><p class="eyebrow">Writing</p><h2>Notes on teaching, maths and AI</h2></header>
+    {% if site.posts.size > 0 %}
+    <ul class="post-list">
+      {% for post in site.posts limit: 3 %}
+      <li><a href="{{ post.url | relative_url }}"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%-d %B %Y' }}</time><span class="pl-title">{{ post.title }}</span>{% if post.description %}<span class="pl-desc">{{ post.description }}</span>{% endif %}</a></li>
+      {% endfor %}
+    </ul>
+    <p><a class="more" href="{{ '/writing/' | relative_url }}">All writing →</a></p>
+    {% else %}
+    <p class="muted">The first post is on its way.</p>
+    {% endif %}
+  </div>
+</section>

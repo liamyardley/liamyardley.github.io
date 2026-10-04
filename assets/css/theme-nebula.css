@@ -1,0 +1,22 @@
+/* ===== Theme: Nebula (dark, matches The Calculus Chronicles) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Playfair+Display:ital,wght@1,500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap');
+:root {
+  color-scheme: dark;
+  --heading-font: 'Cinzel', Georgia, serif; --body-font: 'IBM Plex Sans', system-ui, sans-serif; --mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --h1-weight: 700; --h2-weight: 600; --h3-weight: 600; --brand-weight: 700;
+  --h1-spacing: .05em; --h2-spacing: .04em; --h3-spacing: .03em; --brand-spacing: .08em; --h1-shadow: 0 6px 30px rgba(0,0,0,.6);
+  --lede-font: italic 500 clamp(1.2rem, 2.8vw, 1.6rem)/1.45 'Playfair Display', Georgia, serif; --lede-font-sm: italic 500 1.2rem/1.5 'Playfair Display', Georgia, serif;
+  --bg: #0b0b1a; --bg-image: radial-gradient(70% 45% at 85% 0%, rgba(155,93,229,.20) 0%, transparent 60%), radial-gradient(60% 40% at 0% 100%, rgba(241,91,141,.09) 0%, transparent 60%);
+  --surface: #15132b; --surface-2: #1a1733; --line: #322d52; --line-strong: #4a4370; --band-line: rgba(50,45,82,.55);
+  --ink: #cfc8e0; --ink-strong: #ffffff; --muted: #aaa3bf; --faint: #78729a;
+  --link: #6ad5ff; --link-hover: #9fe4ff; --focus: #6ad5ff; --accent: #b892ff; --accent-strong: #ffd27a; --eyebrow: #ff8fa3; --lede: #ffd27a; --brand: #ffd27a;
+  --bar-bg: rgba(11,11,26,.78); --nav-hover: rgba(184,146,255,.08); --nav-current: #b892ff;
+  --hero-decor: radial-gradient(1.2px 1.2px at 12% 22%, #fff 50%, transparent 51%), radial-gradient(1px 1px at 28% 64%, #cfc8e0 50%, transparent 51%), radial-gradient(1.4px 1.4px at 46% 18%, #ffd27a 50%, transparent 51%), radial-gradient(1px 1px at 63% 42%, #fff 50%, transparent 51%), radial-gradient(1.3px 1.3px at 78% 74%, #b892ff 50%, transparent 51%), radial-gradient(1px 1px at 88% 28%, #fff 50%, transparent 51%), radial-gradient(1.1px 1.1px at 36% 86%, #6ad5ff 50%, transparent 51%);
+  --btn-bg: linear-gradient(90deg, #ffd27a, #ff8fa3); --btn-ink: #1b1530; --btn-line: transparent; --btn-shadow: none; --ghost-bg: transparent;
+  --radius: 16px; --radius-sm: 14px;
+  --card-bg: linear-gradient(180deg, rgba(26,23,51,.92), rgba(21,19,43,.92)); --card-line: #322d52; --card-line-hover: rgba(184,146,255,.7); --card-shadow: none; --card-shadow-hover: none;
+  --pastel-1: #ffd27a; --pastel-2: #b892ff; --pastel-3: #6ad5ff; --pastel-4: #9be7b5;
+  --live: #9be7b5; --dev: #ffd27a; --code: #6ad5ff;
+  --tag-bg: rgba(184,146,255,.12); --tag-ink: #e2d4ff; --tag-line: rgba(184,146,255,.3);
+  --highlight: rgba(255,210,122,.25); --quote-bg: rgba(255,210,122,.06); --foot-bg: transparent;
+}

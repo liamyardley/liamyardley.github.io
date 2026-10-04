@@ -1,0 +1,23 @@
+/* ===== Theme: Soft Mist (light, modern, pastel gradient glow and glass cards) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap');
+:root {
+  color-scheme: light;
+  --heading-font: 'Outfit', system-ui, sans-serif; --body-font: 'Inter', system-ui, sans-serif; --mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --h1-weight: 700; --h2-weight: 600; --h3-weight: 600; --brand-weight: 700;
+  --h1-spacing: -.03em; --h2-spacing: -.02em; --h3-spacing: -.01em; --brand-spacing: -.01em; --h1-shadow: none;
+  --lede-font: 500 clamp(1.2rem, 2.6vw, 1.55rem)/1.45 'Outfit', system-ui, sans-serif; --lede-font-sm: 500 1.18rem/1.5 'Outfit', system-ui, sans-serif;
+  --bg: #f7f7fc; --bg-image: radial-gradient(60% 50% at 0% 0%, rgba(255,214,232,.55) 0%, transparent 65%), radial-gradient(55% 45% at 100% 10%, rgba(200,220,255,.6) 0%, transparent 65%), radial-gradient(60% 50% at 50% 100%, rgba(214,245,232,.5) 0%, transparent 65%);
+  --surface: rgba(255,255,255,.75); --surface-2: #eef0f8; --line: rgba(120,118,170,.18); --line-strong: rgba(120,118,170,.32); --band-line: rgba(120,118,170,.14);
+  --ink: #474766; --ink-strong: #17172e; --muted: #67678a; --faint: #8a8aa8;
+  --link: #5b3fd6; --link-hover: #3f25b8; --focus: #5b3fd6; --accent: #8f7cff; --accent-strong: #5b3fd6; --eyebrow: #c03a7a; --lede: #4a4a6e; --brand: #17172e;
+  --bar-bg: rgba(247,247,252,.7); --nav-hover: rgba(143,124,255,.1); --nav-current: rgba(143,124,255,.45);
+  --hero-decor: radial-gradient(38% 55% at 22% 40%, rgba(222,206,255,.85) 0%, transparent 70%), radial-gradient(34% 50% at 78% 35%, rgba(255,210,226,.8) 0%, transparent 70%), radial-gradient(40% 45% at 55% 95%, rgba(196,232,255,.8) 0%, transparent 70%);
+  --btn-bg: linear-gradient(135deg, #7c6bff, #c86bd6); --btn-ink: #ffffff; --btn-line: transparent; --btn-shadow: 0 10px 24px -12px rgba(124,107,255,.8); --ghost-bg: rgba(255,255,255,.6);
+  --radius: 22px; --radius-sm: 18px;
+  --card-bg: rgba(255,255,255,.72); --card-line: rgba(255,255,255,.9); --card-line-hover: rgba(143,124,255,.5); --card-shadow: 0 1px 2px rgba(23,23,46,.04), 0 12px 32px -18px rgba(60,50,140,.3); --card-shadow-hover: 0 20px 44px -20px rgba(91,63,214,.4);
+  --pastel-1: #e2d9ff; --pastel-2: #ffd6e5; --pastel-3: #cfeedf; --pastel-4: #d3e5ff;
+  --live: #1f7a55; --dev: #9a5a12; --code: #3456b0; --status-pad: 4px 10px; --status-bg: var(--card-accent);
+  --tag-bg: rgba(143,124,255,.1); --tag-ink: #4b37b8; --tag-line: rgba(143,124,255,.22);
+  --highlight: #fde7f1; --quote-bg: rgba(226,217,255,.4); --foot-bg: rgba(255,255,255,.4);
+}
+.card, .post-list a { backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }

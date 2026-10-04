@@ -1,0 +1,37 @@
+# ===== Site settings: edit these lines, then commit =====
+title: Liam Yardley
+tagline: Mathematics, data and the stories behind them
+description: >-
+  Mathematics teacher and data scientist. Interactive tools for learning
+  mathematics, data science projects, and writing on teaching, maths and AI.
+author: Liam Yardley
+# Colour theme: pastel, mist, notebook or nebula (dark, like The Calculus Chronicles)
+colour_theme: pastel
+
+url: "https://liamyardley.github.io"
+baseurl: ""
+
+# Contact links shown in the footer. Leave a line empty ("") to hide it.
+github_username: liamyardley
+linkedin: ""        # e.g. https://www.linkedin.com/in/your-name/
+email: ""           # e.g. you@example.com
+
+# Blog post addresses look like /writing/2026/my-post-title/
+permalink: /writing/:year/:title/
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: writing/feed.xml
+
+# Files that are part of the repository but not of the website
+exclude:
+  - README.md
+  - POST-TEMPLATE.md

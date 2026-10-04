@@ -1,0 +1,55 @@
+# ===== Projects shown on the home page, in this order =====
+# To add a project, copy one block (from "- title:" down to the blank line), paste it, and change the details.
+#   status:  Live, In development or Code   (controls the little label on the card)
+#   link:    the main button (a live site, or the GitHub repository)
+#   code:    the GitHub repository (leave as "" to hide the second button)
+#   image:   a picture in assets/img/ (leave as "" for no picture)
+#   tags:    short labels shown on the card
+
+- title: The Calculus Chronicles
+  status: Live
+  blurb: >-
+    An interactive history of calculus, from Babylonian clay tablets to Robinson's
+    infinitesimals: 61 moments on a true timeline, 25 hands-on labs, step-by-step
+    proofs and readings from the original texts.
+  link: https://liamyardley.github.io/The-Calculus-Chronicles/
+  link_text: Open the site
+  code: https://github.com/liamyardley/The-Calculus-Chronicles
+  image: calculus-chronicles.webp
+  tags: [Mathematics, History, Interactive]
+
+- title: Socratic Assessor
+  status: In development
+  blurb: >-
+    An AI assessor for mathematics that asks students questions, Socratic-style,
+    to find out how deeply they understand an idea rather than only whether the
+    final answer is right. Its marks are checked against human marking of the same work.
+  link: ""
+  link_text: ""
+  code: ""
+  image: ""
+  tags: [AI, Assessment, Python]
+
+- title: Hybrid Film Recommender
+  status: Code
+  blurb: >-
+    A recommendation engine that tackles the cold-start problem by combining
+    user-generated tags with collaborative filtering, using SVD on sparse
+    user-item data (MovieLens) to recommend by mood, not just genre.
+  link: https://github.com/liamyardley   # TODO: replace with the repository's own address
+  link_text: View the code
+  code: ""
+  image: ""
+  tags: [Python, scikit-learn, Recommender systems]
+
+- title: The Computational Prometheus
+  status: Code
+  blurb: >-
+    Evolutionary genre analysis of a 44-novel corpus with structural topic
+    modelling and a PCA stylometric map, testing an "evolutionary bridge"
+    hypothesis for Mary Shelley's work.
+  link: https://github.com/liamyardley   # TODO: replace with the repository's own address
+  link_text: View the code
+  code: ""
+  image: ""
+  tags: [R, Topic modelling, PCA]

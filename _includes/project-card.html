@@ -1,0 +1,14 @@
+{% assign p = include.project %}
+<article class="card{% if p.image != '' %} has-img{% endif %}">
+  {% if p.image != '' %}<a class="card-img" href="{{ p.link }}" tabindex="-1" aria-hidden="true"><img src="{{ '/assets/img/' | append: p.image | relative_url }}" alt="" loading="lazy"></a>{% endif %}
+  <div class="card-body">
+    <p class="status status-{{ p.status | slugify }}">{{ p.status }}</p>
+    <h3>{% if p.link != '' %}<a href="{{ p.link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+    <p>{{ p.blurb }}</p>
+    <ul class="tags">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+    <p class="card-actions">
+      {% if p.link != '' %}<a class="btn" href="{{ p.link }}">{{ p.link_text | default: 'Open' }}</a>{% endif %}
+      {% if p.code != '' %}<a class="btn ghost" href="{{ p.code }}">Code</a>{% endif %}
+    </p>
+  </div>
+</article>
