@@ -36,7 +36,7 @@
     A recommendation engine that tackles the cold-start problem by combining
     user-generated tags with collaborative filtering, using SVD on sparse
     user-item data (MovieLens) to recommend by mood, not just genre.
-  link: https://github.com/liamyardley   # TODO: replace with the repository's own address
+  link: https://github.com/liamyardley/Hybrid-Two-Tower-Film-Recommender
   link_text: View the code
   code: ""
   image: ""
@@ -48,7 +48,7 @@
     Evolutionary genre analysis of a 44-novel corpus with structural topic
     modelling and a PCA stylometric map, testing an "evolutionary bridge"
     hypothesis for Mary Shelley's work.
-  link: https://github.com/liamyardley   # TODO: replace with the repository's own address
+  link: https://github.com/liamyardley/NLP-computational-prometheus
   link_text: View the code
   code: ""
   image: ""
