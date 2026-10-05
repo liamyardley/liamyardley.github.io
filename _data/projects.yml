@@ -30,6 +30,19 @@
   image: social-preview.webp
   tags: [Mathematics, Differential Equations, Interactive]
 
+- title: Little Milestones
+  status: Live
+  blurb: >-
+    Little Milestones tracks the milestones that matter, from the second trimester 
+    to age three, and pairs every single one with play ideas and small experiments 
+    that help you support it. Not a checklist that makes you anxious. A thread you 
+    follow together.
+  link: https://liamyardley.github.io/Little-Milestones/
+  link_text: Open the site
+  code: https://github.com/liamyardley/Little-Milestones/
+  image: splash-icon.webp
+  tags: [Early Development, Baby, Milestone Tracker]
+
 - title: Socratic Assessor
   status: In development
   blurb: >-
