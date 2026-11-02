@@ -30,6 +30,19 @@
   image: social-preview.webp
   tags: [Mathematics, Differential Equations, Interactive]
 
+- title: Conditional Probability Lab
+  status: Live
+  blurb: >-
+    Watch a population of dots get sorted by a test to see why a positive result
+    often means less than it seems: animated Bayes' theorem with probability trees,
+    real-life scenarios from medical tests to AI checkers, questions to consider
+    and Type I and Type II errors.
+  link: https://liamyardley.github.io/Conditional-Probability-Lab/
+  link_text: Open the site
+  code: https://github.com/liamyardley/Conditional-Probability-Lab
+  image: conditional-probability-lab.webp
+  tags: [Mathematics, Probability, Interactive]
+
 - title: Anatomy of AI
   status: Live
   blurb: >-
