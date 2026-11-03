@@ -44,6 +44,17 @@
   image: conditional-probability-lab.webp
   tags: [Mathematics, Probability, Interactive]
 
+- title: Distribution Lab
+  status: Live
+  blurb: >-
+    Explore 17 probability distributions: their assumptions, graphs and probabilities, 
+    with draggable bounds, step-by-step working and a “Which distribution?” decision tree.
+  link: https://liamyardley.github.io/Distributions-Lab/
+  link_text: Open the site
+  code: https://github.com/liamyardley/Distributions-Lab
+  image: ""
+  tags: [Mathematics, Probability, Interactive]
+
 - title: Anatomy of AI
   status: Live
   blurb: >-
