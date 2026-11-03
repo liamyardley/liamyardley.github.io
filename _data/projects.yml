@@ -36,7 +36,8 @@
     Watch a population of dots get sorted by a test to see why a positive result
     often means less than it seems: animated Bayes' theorem with probability trees,
     real-life scenarios from medical tests to AI checkers, questions to consider
-    and Type I and Type II errors.
+    and Type I and Type II errors. Plus a playable Monty Hall problem, from 3 doors
+    to 100, where students decide before the solution is revealed.
   link: https://liamyardley.github.io/Conditional-Probability-Lab/
   link_text: Open the site
   code: https://github.com/liamyardley/Conditional-Probability-Lab
